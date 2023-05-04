@@ -1,11 +1,41 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #000;
+#game-board {
+  width: 300px;
+  height: 600px;
+  border: 2px solid black;
+  margin: 0 auto;
+  position: relative;
 }
 
-canvas {
-  display: block;
-  margin: 0 auto;
-  border: 1px solid #fff;
+.block {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+
+.block.i {
+  background-color: #00FFFF;
+}
+
+.block.o {
+  background-color: #FFFF00;
+}
+
+.block.t {
+  background-color: #800080;
+}
+
+.block.s {
+  background-color: #00FF00;
+}
+
+.block.z {
+  background-color: #FF0000;
+}
+
+.block.j {
+  background-color: #0000FF;
+}
+
+.block.l {
+  background-color: #FFA500;
 }
